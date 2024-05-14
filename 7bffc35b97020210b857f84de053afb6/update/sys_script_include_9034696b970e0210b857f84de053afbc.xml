@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1407090_cicd_dem.feature_052621</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>var feature_052621 = Class.create();&#13;
+feature_052621.prototype = {&#13;
+    initialize: function() {&#13;
+   },&#13;
+ &#13;
+    sayHello: function() {&#13;
+               return "Hello!";&#13;
+    },&#13;
+ &#13;
+   type: 'feature_052621'&#13;
+};&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+        <name>feature_052621</name>
+        <script><![CDATA[var feature_052621 = Class.create();
+feature_052621.prototype = {
+    initialize: function() {
+    },
+
+    type: 'feature_052621'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 18:51:22</sys_created_on>
+        <sys_id>9034696b970e0210b857f84de053afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_052621</sys_name>
+        <sys_package display_value=" CICD DemoApp" source="x_1407090_cicd_dem">7bffc35b97020210b857f84de053afb6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value=" CICD DemoApp">7bffc35b97020210b857f84de053afb6</sys_scope>
+        <sys_update_name>sys_script_include_9034696b970e0210b857f84de053afbc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 18:51:22</sys_updated_on>
+    </sys_script_include>
+</record_update>
